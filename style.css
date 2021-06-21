@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title-space {
+    height: 60px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    float: right;
+    align-items: center;
+    padding-right: 10px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+.title {
+    margin: 10px 10px 10px 10px;
+}
+
+.gb_Ve {
+    width: 24px;
+    color: #5f6368;
+    fill: currentColor;
+}
+
+#profile {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.material-icons.dot{
+    width: 7px;
+    font-size: 27px;
+}
+
+#search {
+    font-size: 20px;
+    color: #9aa0a6;
+    margin: 0px 15px;
+}
+
+.goxjub {
+    width: 30px;
+    margin: 0px 15px;
+}
+
+#main {
+    display: block;
+    
+    width: 100%;
+    max-width: 700px;
+
+    margin: 0 auto;
+}
+
+#flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    width: 272px;
+    align-self: center;
+    padding-bottom: 30px;
+    margin-top: 10%;
+}
+
+#searchbar {
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    width: 100%;
+    max-width: 529px;
+    margin: 0px auto;
+}
+
+#searchbar > input, 
+#searchbar > input:active, 
+#searchbar > input:focus {
+    border: none;
+    outline: none;
+}
+
+#textfield {
+    font-size: 16px;
+    width: 100%;
+}
+
