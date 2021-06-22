@@ -13,7 +13,7 @@ body {
 }
 
 #title-space {
-    height: 60px;
+    height: 50px;
     width: 100%;
 }
 
@@ -21,13 +21,14 @@ header {
     display: flex;
     float: right;
     align-items: center;
+    padding-top: 3px;
     padding-right: 10px;
     color: rgba(0,0,0,0.87);
     text-decoration: none;
 }
 
 .title {
-    margin: 10px 10px 10px 10px;
+    margin: 10px 8px 10px 10px;
 }
 
 .gb_Ve {
@@ -37,13 +38,21 @@ header {
 }
 
 #profile {
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 33px;
     border-radius: 50%;
 }
 .material-icons.dot{
     width: 7px;
     font-size: 27px;
+}
+
+#headert1 {
+    padding-right: 5px;
+}
+
+#headert2 {
+    padding-right: 9px;
 }
 
 #search {
@@ -70,24 +79,31 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding: 0px 20px;
+    height: 50vh;
+}
+
+#spaceholder {
+    height: 100%;
+    min-height: 0px;
+    max-height: 208px;
 }
 
 #logo {
     width: 272px;
     align-self: center;
-    padding-bottom: 30px;
-    margin-top: 10%;
+    padding-bottom: 26px;
 }
 
 #searchbar {
     border-radius: 25px;
     border: 1px solid #dfe1e5;
-    height: 44px;
+    min-height: 46px;
     display: flex;
     align-items: center;
     align-content: space-between;
     width: 100%;
-    max-width: 529px;
+    max-width: 584px;
     margin: 0px auto;
 }
 
@@ -107,15 +123,15 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
-    margin: 30px 0px;
+    gap: 12px;
+    margin: 29px 0px;
 }
 .searchbox {
-    border-radius: 10%;
+    border-radius: 4px;
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     font-size: 14px;
-    line-height: 40px;
+    line-height: 35px;
     padding: 0px 16px;
     color: #3c4043;
     white-space: nowrap;
