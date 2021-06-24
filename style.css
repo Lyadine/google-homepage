@@ -17,6 +17,16 @@ body {
     width: 100%;
 }
 
+#headert1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#headert2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 header {
     display: flex;
     float: right;
@@ -25,6 +35,8 @@ header {
     padding-right: 10px;
     color: rgba(0,0,0,0.87);
     text-decoration: none;
+    justify-content: center;
+    margin: 6px 4px 10px 10px;
 }
 
 .title {
@@ -32,16 +44,35 @@ header {
 }
 
 .gb_Ve {
-    width: 24px;
+    width: 40px;
     color: #5f6368;
     fill: currentColor;
+    padding: 8px;
+    margin-left: 2px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.gb_Ve:hover {
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+    
 }
 
 #profile {
-    width: 34px;
-    height: 33px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+#profile:hover {
+    background-color: rgba(60,64,67,0.08);
     border-radius: 50%;
 }
+
 .material-icons.dot{
     width: 7px;
     font-size: 27px;
@@ -58,12 +89,20 @@ header {
 #search {
     font-size: 20px;
     color: #9aa0a6;
-    margin: 0px 15px;
+    margin: 0px 14px;
+}
+
+#search:hover {
+    cursor: default;
 }
 
 .goxjub {
-    width: 30px;
+    height: 30px;
     margin: 0px 15px;
+}
+
+.goxjub:hover {
+    cursor: pointer
 }
 
 #main {
@@ -114,6 +153,11 @@ header {
     outline: none;
 }
 
+#searchbar:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
 #textfield {
     font-size: 16px;
     width: 100%;
@@ -135,6 +179,13 @@ header {
     padding: 0px 16px;
     color: #3c4043;
     white-space: nowrap;
+}
+
+.searchbox:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    cursor: pointer;
 }
 
 #footer {
@@ -164,6 +215,11 @@ header {
 
 .footer-text {
     padding: 15px;
+}
+
+.footer-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1200px) {
